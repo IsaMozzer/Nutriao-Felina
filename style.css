@@ -8,9 +8,22 @@ body{
     background-color: #FFF5E1;
 }
 
-header > h1{
+header > h1.centro{
     color: #d25f00;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    
 }
+header{
+    background-color: #ffdbbd;
+    height: 7vh;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
 h1{
     color: #FF8C42;
 }
@@ -19,6 +32,18 @@ p{
     color: #333333;
 }
 
+nav{
+    background-color: aquamarine;
+}
+nav > div.topico1{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #d88c8c;
+}
+img.logo{
+    width: 35px;
+    height: 35px;
+}
 img{
     width: 400px;
     height:auto;
