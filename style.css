@@ -37,12 +37,16 @@ nav{
 }
 nav > div.topico1{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row-reverse wrap;
     background-color: #d88c8c;
+    width: 100%;
+    justify-content: space-between;
 }
 
 nav > div.topico1 >.conteudo1{
-    flex: 1 1 200px;
+    padding-left: 10px;
+    width:700px;
+    text-align: justify;
 }
 img.logo{
     width: 35px;
