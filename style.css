@@ -40,6 +40,10 @@ nav > div.topico1{
     flex-flow: row wrap;
     background-color: #d88c8c;
 }
+
+nav > div.topico1 >.conteudo1{
+    flex: 1 1 200px;
+}
 img.logo{
     width: 35px;
     height: 35px;
