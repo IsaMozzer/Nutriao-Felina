@@ -1,16 +1,25 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     background-color: #FFF5E1;
 }
 
+header > h1{
+    color: #d25f00;
+}
 h1{
     color: #FF8C42;
 }
 
 p{
     color: #333333;
+}
+
+img{
+    width: 400px;
+    height:auto;
 }
