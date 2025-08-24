@@ -9,19 +9,27 @@ body{
 
 }
 
-header > h1.centro{
-    
-
-    
-}
-
-header{
+header {
     background-color: #ffdbbd;
     height: 7vh;
+    display: flex;             
+    align-items: center;        
+    justify-content: center;    
+    position: relative;         
+}
+
+header img.logo {
+    position: absolute;         
+    left: 20px;                
+    height: 35px;              
+}
+
+header > h1.centro {
+    color: #d25f00;
+    font-family: 'Chewy', cursive;
+    font-weight: normal;
+    font-size: 5vh;
     text-align: center;
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
 }
 
 header > p{
@@ -58,6 +66,7 @@ nav{
     width: 95%;           /* ou a largura que você quiser */
     margin: 0 auto;       /* centraliza horizontalmente */
 }
+
 nav > div.topico1{
     display: flex;
     flex-flow: row-reverse wrap;
@@ -66,7 +75,7 @@ nav > div.topico1{
 }
 
 nav > div.topico1 >.conteudo1{
-    padding: 0px 20px 0px 0px;
+    padding: 0px 20px 20px 0px;
     flex: 1 1 500px;
     text-align: justify;
 }
@@ -110,7 +119,7 @@ nav > div.topico3 > .conteudo3 {
 div.conclusao{
     max-width: 1300px;
     text-align: justify;
-    padding: 10px 20px 30px 10px;
+    padding: 20px 20px 30px 10px;
 }
 
 span{
@@ -123,10 +132,7 @@ iframe{
     flex: 1 1 200px;
 }
 
-img.logo{
-        width: 335px;
-    height: 15px;
-}
+
 
 img{
     flex: 0 1 200px;
