@@ -21,7 +21,6 @@ header{
     text-align: center;
     padding-top: 10px;
     display: flex;
-    justify-content: space-between;
 }
 
 header > p{
@@ -58,40 +57,57 @@ nav > div.topico1 >.conteudo1{
     text-align: justify;
 }
 
-iframe{
-    flex: 0 1 auto;
+iframe {
+    margin: auto;
+    width: 100%;          
+    max-width: 480px;     
+    height: auto;        
+    aspect-ratio: 16/9;   /* mantém a proporção correta do vídeo */
+    border: none;        
 }
+
 
 nav > div.topico2{
     display: flex;
     flex-flow: row wrap;
     width: 100%;
     justify-content: space-between;
-    background-color: brown;
 }
 
 nav > div.topico2 > .conteudo2{
-    flex: 1 780px;
+    flex: 1 500px;
     background-color: #d25f00;
     
 }
 
-nav > div.topico3{
+nav > div.topico3 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
+    flex-flow: row wrap; 
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(195, 0, 255);
 }
 
-nav > div.topico3 > .conteudo3{
-    flex: 1 780px;
-
+nav > div.topico3 > .conteudo3 {
+    flex: 1 1 500px; 
+    text-align: justify;
+    padding: 10px;
 }
+
+iframe{
+    flex: 1 1 200px;
+}
+
 img.logo{
     width: 35px;
     height: 35px;
 }
 img{
-    width: 300px;
-    height:auto;
+    flex: 0 1 200px;
+    padding: 10px;
+    border: 2px solid pink;
+    margin: auto;
+    display: block;
+    float: right;
+    width: 500px;
 }
