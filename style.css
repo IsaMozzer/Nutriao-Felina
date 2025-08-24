@@ -21,6 +21,7 @@ header{
     text-align: center;
     padding-top: 10px;
     display: flex;
+    justify-content: space-between;
 }
 
 header > p{
@@ -28,25 +29,35 @@ header > p{
 }
 
 h1{
+    font-family: 'Chewy', cursive;
+    font-weight: normal;
     font-size: 5vh;
-    color: #FF8C42;
+    color: #f4792cec;
 }
 
 p{
+    padding-top: 5px;
     text-align: justify;
-    color: #333333;
+    color: #262626;
 }
+
 
 .introducao{
     margin: 20px 30px 20px 10px;
 }
+
+.introducao > p{
+    padding-top: 5px;
+    width: 70vw;
+    text-align: justify;
+}
+
 nav{
-    background-color: aquamarine;
+    background-color: rgb(253, 244, 231);
 }
 nav > div.topico1{
     display: flex;
     flex-flow: row-reverse wrap;
-    background-color: #d88c8c;
     width: 100%;
     justify-content: space-between;
 }
@@ -75,9 +86,9 @@ nav > div.topico2{
 }
 
 nav > div.topico2 > .conteudo2{
-    flex: 1 500px;
-    background-color: #d25f00;
-    
+    text-align: justify;
+    padding: 10px;
+    flex: 1 500px;    
 }
 
 nav > div.topico3 {
@@ -85,16 +96,26 @@ nav > div.topico3 {
     flex-flow: row wrap; 
     width: 100%;
     justify-content: space-between;
-    background-color: rgb(195, 0, 255);
 }
 
 nav > div.topico3 > .conteudo3 {
     flex: 1 1 500px; 
     text-align: justify;
-    padding: 10px;
+    padding: 40px 10px 2px 10px;
+}
+
+div.conclusao{
+    text-align: justify;
+    padding: 10px 20px 30px 20px;
+}
+
+span{
+    color: #d25f00;
+    font-weight: 600;
 }
 
 iframe{
+    padding: 10px 40px 10px 20px;
     flex: 1 1 200px;
 }
 
@@ -102,12 +123,15 @@ img.logo{
     width: 35px;
     height: 35px;
 }
+
 img{
     flex: 0 1 200px;
-    padding: 10px;
-    border: 2px solid pink;
+    padding: 10px 40px 10px 40px;
+    border: 2px solid rgba(255, 192, 203, 0);
     margin: auto;
     display: block;
     float: right;
-    width: 500px;
+    max-width: 400px;
 }
+
+
